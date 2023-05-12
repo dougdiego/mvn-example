@@ -79,6 +79,27 @@ Run 1 test testSList from class SListTest
 ```commandline
 mvn -Dtest=SListTest#testSList test
 ```
+## How to open in Intellij
+In Intellij, choose File > Open
+![](docs/intellij01.png)
+
+Navigate to the folder mvn-example and choose open:
+![](docs/intellij02.png)
+
+Edit the configuration.  Click the + button to add a new configuration.  Choose "Application".
+![](docs/intellij03.png)
+
+Type in the path to the runnable class. In this example it is "org.diego.App"
+![](docs/intellij04.png)
+
+Create tests by right clicking on the class you want to add test for and choose "Show Context Actions"
+![](docs/intellij05.png)
+
+Choose Create Test
+![](docs/intellij06.png)
+
+Give the Test a Class name
+![](docs/intellij07.png)
 
 ## Sources
 - [Running a Maven Project from the Command Line (and Building Jar Files)](https://www.sohamkamani.com/java/cli-app-with-maven/)
